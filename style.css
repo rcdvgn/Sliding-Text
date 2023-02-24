@@ -1,0 +1,25 @@
+body, *{
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    color: #f1d302;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(50% 158.02% at 50% 50%, #EBEBEB 0%, #CCCCCC 100%);
+}
+#a{
+    overflow: hidden;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+}
+#b, #c{
+    cursor: pointer;
+}
